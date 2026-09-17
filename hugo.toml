@@ -1,0 +1,23 @@
+baseURL = 'https://brave-tree-06d3c0810.2.azurestaticapps.net/'
+locale  = 'en-US'
+title   = 'Hosting Test - Azure'
+
+enableGitInfo = true
+
+[caches]
+  _merge = 'deep'
+
+[cascade]
+  _merge = 'deep'
+
+[markup]
+  _merge = 'deep'
+
+[security]
+  _merge = 'deep'
+
+[[module.imports]]
+  path = 'github.com/jmooring/hugo-module-feature-test'
+
+[[module.imports]]
+  path = 'hugo-theme-example'
